@@ -1,0 +1,25 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+body{
+    height:500vh;
+}
+h1 {
+    color:red;
+}
+img {
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    height:100vh;
+    display:block;
+}
+@media only screen and (min-width:200px) and (max-width:480px){
+    html{
+        width:99.99%;
+    }
+    img {
+        width:100%;
+        margin:auto;
+        height:100vh;
+    }
+}
